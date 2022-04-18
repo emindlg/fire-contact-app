@@ -14,7 +14,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
  import EditIcon from '@mui/icons-material/Edit';
 
 
-const Contacts = () => {
+const Contacts = ({editHandler}) => {
  const {isLoading,contactList}=useFetch();
   return (
     <div>
@@ -59,7 +59,12 @@ const Contacts = () => {
               <TableCell textAlign="center" onClick={()=>DeleteUser(item.id)}>
                 <DeleteIcon/>
               </TableCell> 
-              <TableCell textAlign="center"><EditIcon/></TableCell>
+              <TableCell textAlign="center" onClick={() =>editHandler(
+                item.id, 
+                itemitem.userName,
+                item.phoneNumber, 
+                item.gender
+              )}><EditIcon/></TableCell>
              </TableRow> 
              ))
 
