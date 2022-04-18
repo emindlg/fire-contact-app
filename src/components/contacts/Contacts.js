@@ -61,7 +61,7 @@ const Contacts = ({editHandler}) => {
               </TableCell> 
               <TableCell textAlign="center" onClick={() =>editHandler(
                 item.id, 
-                itemitem.userName,
+                item.userName,
                 item.phoneNumber, 
                 item.gender
               )}><EditIcon/></TableCell>
