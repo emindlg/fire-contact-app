@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fire-contact-app/static/css/main.d549e293.css",
+    "main.js": "/fire-contact-app/static/js/main.08cd18e3.js",
+    "static/js/787.6c3fad03.chunk.js": "/fire-contact-app/static/js/787.6c3fad03.chunk.js",
+    "index.html": "/fire-contact-app/index.html",
+    "main.d549e293.css.map": "/fire-contact-app/static/css/main.d549e293.css.map",
+    "main.08cd18e3.js.map": "/fire-contact-app/static/js/main.08cd18e3.js.map",
+    "787.6c3fad03.chunk.js.map": "/fire-contact-app/static/js/787.6c3fad03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d549e293.css",
+    "static/js/main.08cd18e3.js"
+  ]
+}
